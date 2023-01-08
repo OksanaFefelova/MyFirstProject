@@ -8,7 +8,7 @@ void addaray(float* m1, float* m2, float* m3, int ra) {
 		*(m3++) = *(m1++) + *(m2++);
 	}
 }
-void addaray1(float* m1, float* m2, float* m3, int ra) {
+void addaray12(float* m1, float* m2, float* m3, int rad) {
 	for (int i = 0; i < ra; i++) {
 		*(m3++) = *(m1++) + *(m2++);
 	}
@@ -34,7 +34,7 @@ int main()
 		cout << mas2[i] << " ";
 	}
 	addaray(mas1, mas2, mas3, razm);
-	addaray1(mas1, mas2, mas3, razm);
+	addaray12(mas1, mas2, mas3, razm);
 	for (int i = 0; i < razm; i++) {
 		cout << mas3[i] << " ";
 	}
