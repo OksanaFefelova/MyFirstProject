@@ -1,17 +1,18 @@
 #include <iostream>
 #include <cstdlib>
+#include <systemlib>
 using namespace std;
 
 void addaray(float* m1, float* m2, float* m3, int ra) {
 	for (int i = 0; i < ra; i++) {
-		*(m3++) = *(m1++) + *(m2++);
+		*(m3++) = *(m2++) + *(m1++);
 	}
 }
 int main()
 {
 	//Изменение кодировки консоли:
 	system("chcp 1251>nul");
-	const int razm = 10;
+	const int razm = 89;
 	
 	float mas1[razm];
 	float mas2[razm];
