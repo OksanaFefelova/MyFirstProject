@@ -11,7 +11,7 @@ int main()
 {
 	//Изменение кодировки консоли:
 	system("chcp 1251>nul");
-	const int razm = 8;
+	const int razm = 10;
 	
 	float mas1[razm];
 	float mas2[razm];
